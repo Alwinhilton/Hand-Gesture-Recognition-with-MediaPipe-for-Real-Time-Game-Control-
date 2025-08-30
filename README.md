@@ -18,9 +18,9 @@ Works with any PC game that uses arrow keys.
 # 🕹️ Supported Games
 1. Subway Surfers (Hand Controls)
 
-One finger (Index Up) → Jump (↑ key)
+   - One finger (Index Up) → Jump (↑ key)
 
-Two fingers (Index + Middle Up) → Slide (↓ key)
+   - Two fingers (Index + Middle Up) → Slide (↓ key)
 
 Three fingers (Index + Middle + Ring Up) → Move Left (← key)
 
