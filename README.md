@@ -3,7 +3,7 @@
 
 This project uses MediaPipe and OpenCV to recognize hand gestures via webcam and map them to keyboard controls for popular PC games. With this, you can play games like Subway Surfers and Hill Climb Racing using only your hand movements — no keyboard required!
 
-#🚀 Features
+# 🚀 Features
 
 Real-time hand tracking using MediaPipe Hands.
 
@@ -15,7 +15,7 @@ Smooth gameplay with gesture history + cooldown to avoid false triggers.
 
 Works with any PC game that uses arrow keys.
 
-#🕹️ Supported Games
+# 🕹️ Supported Games
 1. Subway Surfers (Hand Controls)
 
 One finger (Index Up) → Jump (↑ key)
@@ -36,7 +36,7 @@ Fist (No fingers up) → Brake/Reverse (← key)
 
 Neutral (any other gesture) → Release keys
 
-#🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 Python 3.x
 
@@ -49,34 +49,31 @@ MediaPipe
 PyAutoGUI
  → Keyboard control emulation
 
-#▶️ How to Run
+# ▶️ How to Run
 
-Clone this repository:
-
-git clone https://github.com/your-username/hand-gesture-game-control.git
-cd hand-gesture-game-control
+1. Clone this repository:
+   git clone https://github.com/your-username/hand-gesture-game-control.git cd hand-gesture-game-control
 
 
-Install dependencies:
+2. Install dependencies:
 
-pip install opencv-python mediapipe pyautogui
+   pip install opencv-python mediapipe pyautogui
+   
+3.Run the script for your game:
 
+  Subway Surfers
 
-Run the script for your game:
-
-Subway Surfers
-
-python subway_surfer_control.py
-
-
-Hill Climb Racing
-
-python hill_climb_control.py
+   python subway_surfer_control.py
 
 
-Start the game and control it with your hand gestures! 🖐️
+ Hill Climb Racing
 
-#📌 Notes
+   python hill_climb_control.py
+
+
+4. Start the game and control it with your hand gestures! 🖐️
+
+# 📌 Notes
 
 Make sure your webcam is enabled and has good lighting.
 
